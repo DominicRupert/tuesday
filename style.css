@@ -2,3 +2,14 @@
 .mgs{
     box-shadow: 0px 5px 20px white;
 }
+img {
+    transition: transform 1s ease-in-out;
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+  img:hover {
+    transform: rotate(360deg);
+    
+  }
