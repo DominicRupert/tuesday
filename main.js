@@ -114,7 +114,7 @@ function drawPackages() {
   let template = "";
   activePackages.forEach((package) => {
     template += `
-  <div class="col-md-3 text-white " onclick="choose('${package.to}')">
+  <div class="col-md-3 text-white pack" onclick="choose('${package.to}')">
   <img src="/mgs.png" class="img-fluid mgs rounded-2 " alt="">
   <p class="text-center py-2"><b>${package.to}</b></p>
   </div>
